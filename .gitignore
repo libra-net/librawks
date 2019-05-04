@@ -1,1 +1,5 @@
+# leaf workspace data
 /leaf-data/*
+
+# sub-projects fetched through repo
+/releng/*
