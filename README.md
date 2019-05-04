@@ -18,7 +18,7 @@ Eventually create and go into a folder that will contain your **librawks** folde
 
 * `git clone git@github.com:libra-net/librawks.git`
 
-(Assuming that you have your provite key configured for Github access)
+(Assuming that you have your private key configured for Github access)
 
 ### Synchronize the workspace
 
@@ -29,3 +29,9 @@ If you don't know which profile to select, just run:
 
 * `cd librawks`
 * `leaf select default`
+
+## Visual Studio Code
+
+This workspace is designed to be used with **Visual Studio Code** (https://code.visualstudio.com/)
+
+Recommended extensions and settings will be automatically applied as soon as you open this folder in the IDE.
