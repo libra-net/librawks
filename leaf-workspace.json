@@ -1,6 +1,21 @@
 {
     "leafMinVersion": "1.8",
     "profiles": {
-        "default": {}
+        "default": {
+            "packages": [
+                "libra-src_latest"
+            ]
+        },
+        "releng": {
+            "packages": [
+                "libra-src_latest"
+            ],
+            "env": {
+                "LIBRA_GERRIT_GROUPS": "releng"
+            }
+        }
+    },
+    "env": {
+        "LIBRA_CLONE": "${LEAF_WORKSPACE}"
     }
 }

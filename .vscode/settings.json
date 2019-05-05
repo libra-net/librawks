@@ -3,9 +3,8 @@
         "librawks"
     ],
     "files.exclude": {
-        "**/.gitignore": true,
-        "**/.vscode": true,
-        "**/leaf-data": true,
-        "**/leaf-workspace.json": true
+        ".vscode": true,
+        ".repo": true,
+        "leaf-workspace.json": true
     }
 }
